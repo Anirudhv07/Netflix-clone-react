@@ -16,16 +16,16 @@
 }
 
 .poster{
-    max-height: 250px;
+    max-height: 350px;
     margin-right: 10px;
 
 }
 .poster:hover{
-    transform:scale(1.1)
+    transform:scale(1.4)
 }
 
 .smallPoster{
-    max-height: 120px;
+    max-height: 200px;
     margin-right: 10px;
 
 }

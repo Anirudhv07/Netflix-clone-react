@@ -26,9 +26,11 @@ function Rowpost(props) {
     
     <div className='row'>
         <h2>{props.title}</h2>
+        
         <div className='posters'>
           {movie.map((movie)=>
-            <img  className={props.isSmall?'smallPoster':'poster'} alt='poster' src={`${imgURL+movie.backdrop_path}`}/>
+          
+            <img  className={props.isSmall?'smallPoster':'poster'} alt='poster' src={`${imgURL+movie.poster_path}`}/>
           )}
 
             
